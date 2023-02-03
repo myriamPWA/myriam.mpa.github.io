@@ -1,0 +1,127 @@
+
+body 
+{
+	background-color: #f8f3fa;
+}
+
+.mon-bouton {
+  margin-top: 1rem;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* partie grisée des télephones */
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+/* } */
+
+/* télephone NOIR  */
+.product-device {
+    position: absolute;
+    right: 0%;
+    bottom: -35%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+/* } */
+
+/* position du tél VIOLET */
+.product-device-2 {
+    position: absolute;
+	top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 0%;
+    background-color: #b37fe4;
+}
+/* } */
+
+/* Réinventez vous dans le digital ! */
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align:center;
+	color:#765497;
+}
+/* } */
+
+/* fond de home,contact,FAQ */
+
+li a:hover {
+  background-color: #b37fe4;
+}
+/* } */
+
+/* bordure du block	 */
+
+div
+{
+	border-radius: 15px;
+}
+/* } */
+
+/* bordure du nav	 */
+
+nav
+{
+	border-radius: 30px;
+}
+/* } */
+
+
+
+p
+{
+	font-size: 1.3em;
+	color: black;
+	
+}
+
+
+
+/* home,faq,contact */
+ul {
+  font-family: "Montserrat", Sans-serif;
+  margin-right: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visble;
+  
+  
+}
+/* } */
+
+/* bas de page */
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* } */
+
+/* bas de page */
+li a:hover {
+  background-color: #b37fe4;
+}
+/* } */
